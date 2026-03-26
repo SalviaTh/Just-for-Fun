@@ -1,3 +1,30 @@
 :root{
-    --bg
+    --bg-color:#0f0f11;
+    --text-color:#ffffff;
+    --glass-bg: rgba(255,255,255,0.05);
+    --glass-border:rgba(255,255,255,0.1);
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--bg-color);
+    font-family: "Outfit", sans-serif;
+    color: var(--text-color);
+    width: 100vw;
+    height:100vh;
+}
+#color-source{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.pill{
+    padding: 10px 15px;
+    border-radius: 999px;
+    display: inline-block;
+}
+.pill:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
