@@ -7,5 +7,4 @@ Coloritem.forEach(item => {
     pill.textContent=color;
     pill.style.background=color;
     scene.appendChild(pill);
-    
 });
